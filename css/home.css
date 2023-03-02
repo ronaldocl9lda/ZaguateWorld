@@ -12,6 +12,9 @@ html {
   padding: 0;
   margin: 0;
 }
+
+.container {
+}
   
 article, aside, figure, footer, header, hgroup, nav, section { 
   display:block;
@@ -27,24 +30,35 @@ body {
 
 #main { 
   /*background: transparent url(../images/grass.png) repeat-x bottom;*/
+  position: relative;
+  display: block;
+  padding: 10px;
   margin: 0 auto;
+  margin-top: 10px;
   background-color: white;
   width: 50%;
+  border-radius: 15px;
 }
 
 header #logo {
   width: 100%;
+  
 }
 
 header {
-  background-image: url("../images/logo.png");
+  background-image: url("../images/logo.png") no-repeat;
 }
 
 nav {
   background-color: #53C7FD;
+  border-radius: 10px;
+  margin: 15px;
 }
 
+
 nav ul li {
+  display: inline-block;
+  padding: 10px;
   list-style: none;
 }
 
