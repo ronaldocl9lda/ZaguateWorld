@@ -66,3 +66,40 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+
+nav ul li a:hover {
+  color: #E5017D;
+  text-decoration: none;
+}
+
+/*footer*/
+footer {
+  background-color: #53C7FD;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #E5017D;
+}
